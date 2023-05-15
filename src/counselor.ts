@@ -7,7 +7,7 @@ export class Counselor extends Character {
     name: string,
     house: string,
     age: number,
-    characterAdvised: object
+    characterAdvised: string
   ) {
     super(name, house, age);
     this.characterAdvised = characterAdvised;
